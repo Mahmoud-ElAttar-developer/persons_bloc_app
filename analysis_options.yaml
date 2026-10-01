@@ -1,1 +1,6 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # avoid_print: false # إلغاء تفعيل التحذير عند استخدام طباعة الأكواد
+    prefer_single_quotes: true # إجبار المشروع على استخدام علامات الاقتباس المفردة '' بدلاً من ""
